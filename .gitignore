@@ -1,0 +1,48 @@
+# Xcode specific files
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.xcworkspacedata
+*.ipa
+ResoNest.xcodeproj/
+
+# Swift specific
+*.swiftdeps
+*.swiftsourceinfo
+*.swiftmodule
+*.swiftdoc
+*.hmap
+*.d
+
+# macOS specific
+.DS_Store
+*.plist
+
+# Python specific
+__pycache__/
+dist/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Ignore logs, temp files, and OS files
+*.log
+*.tmp
+*.lock
+*.bak
+*.swp
+*.swo
+
+# Node and npm
+node_modules/
+npm-debug.log
+
+# Miscellaneous
+*.iml
+.idea/
+*.lock
